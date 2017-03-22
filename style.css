@@ -1,0 +1,95 @@
+body{
+  background-color: rgba(58, 216, 237, 0.59);
+  background-image: url(http://vignette4.wikia.nocookie.net/onepiecerp/images/9/98/One_Piece_Background.png/revision/latest?cb=20121111002204);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1{
+  text-align: center;
+  color: rgba(13, 18, 134, 0.76);
+  font-family: cursive;
+
+  position: static;
+}
+
+span{
+  visibility: hidden;
+}
+
+#wrap{
+  margin: 10px 0px 30px 10px
+}
+
+#Lorem{
+  text-align: justify;
+  text-indent: 30px;
+  max-width: 85%;
+  height: 80px;
+  background: green;
+}
+
+/* Mengatur Display Link */
+.Menu{
+  display: inline-block;
+  /*width: 80px;
+  height: 40px;*/
+  text-decoration: none;
+  text-align: center;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+
+  padding: 10px 10px;
+}
+
+/* Menghias Link */
+.Menu:link{
+  background: rgba(58, 216, 237, 0.59);
+  color: White;
+}
+
+.Menu:hover{
+  background: rgba(8, 8, 8, 0.64);
+  color: white;
+}
+
+.Menu:active{
+  background: rgba(58, 216, 237, 0.59);
+}
+
+.Menu:visited{
+  color: red;
+}
+
+#float{
+  float: left;
+  margin-right: 30px;
+  clear: both;          /*teknik untuk menghilangkan efek float ke element berikutnya*/
+}
+
+#table_luffy{
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+ul, ol, dl{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+}
+
+/*Mengenal macam posisi di css
+1. static, 2. relative, 3. absolute, 4. fixed
+#menu{
+  position: relative;
+  top: 40px;
+
+  Belajar parant-element; bapaknya suatu element
+
+  Z index buat menentukan text atau gambar/animasi berada di depan atau belakang
+}*/
