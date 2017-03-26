@@ -14,6 +14,18 @@ h1{
   position: static;
 }
 
+h1:hover{
+  color: rgb(113, 101, 252);
+}
+
+h1:hover + p{
+  background-color: rgba(232, 44, 185, 0.83);
+}
+
+input:focus, textarea:focus{
+  background: rgb(151, 250, 111);
+}
+
 span{
   visibility: hidden;
 }
@@ -82,6 +94,8 @@ ul, ol, dl{
   padding: 0;
   width: 33.33%;
 }
+
+
 
 /*Mengenal macam posisi di css
 1. static, 2. relative, 3. absolute, 4. fixed
